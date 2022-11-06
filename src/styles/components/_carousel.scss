@@ -1,0 +1,37 @@
+.carousel {
+  max-width: 1240px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgcarou {
+  width: 100%;
+  height: 415px;
+  margin: 0px;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.arrowcontainer {
+  display: flex;
+  max-width: 1240px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 170px;
+}
+
+.arrowleft img {
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+.arrowright img {
+  cursor: pointer;
+  transform: rotate(180deg);
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}

@@ -1,0 +1,49 @@
+.errormsg{
+  text-align: center;
+}
+
+.errormsg a {
+  margin-top: 60px;
+  text-align: center;
+  color: #ff6060;
+}
+
+.errormsg h1 {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 96px;
+  color: #ff6060;
+  font-family: 'montserrat';
+}
+
+.errormsg h2 {
+  font-size: 18px;
+  color: #ff6060;
+}
+
+.errormsg h3 {
+  margin-top: 50px;
+  font-size: 14px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  color: #ff6060;
+}
+
+@media screen and (min-width: 600px){
+  
+.errormsg h1 {
+  margin-top: auto;
+  font-size: 280px;
+}
+
+.errormsg h2 {
+  font-size: 36px;
+}
+
+.errormsg h3 {
+  margin-top: 50px;
+  font-size: 18px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+}

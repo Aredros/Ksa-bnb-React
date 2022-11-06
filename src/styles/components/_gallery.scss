@@ -1,0 +1,29 @@
+.gallery ul {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.gallery {
+  padding-bottom: 30px;
+  padding-top: 22px;
+  border-radius: 25px;
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 600px){
+  .gallery ul {
+   
+  }
+
+  .gallery{
+    background-color: #f7f7f7;
+    padding-top: 30px;
+    margin-top: 90px;
+  }
+}

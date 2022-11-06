@@ -1,0 +1,46 @@
+.collapse {
+  max-width: 1023px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btnc {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff6060;
+  text-align: left;
+  height: 47px;
+  width: 100%;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  align-items: center;
+}
+.txtbtn {
+ 
+}
+.arrowdown {
+  transform: rotate(180deg);
+  float: right;
+}
+.arrowup {
+  float: right;
+}
+
+.content {
+  background-color: #f7f7f7;
+  margin-top: -5px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  width: 100%;
+  color: #ff6060;
+  font-size: 24px;
+  border-radius: 5px;
+}
+.content p {
+  margin: 15px;
+}

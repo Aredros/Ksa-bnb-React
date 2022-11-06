@@ -1,0 +1,101 @@
+.info {
+  color: #ff6060;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fiche-title-address{
+  display: flex;
+  flex-direction: column;
+}
+
+.hostrate{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.host{
+  display: flex;
+  align-items: center;
+}
+
+.info h1 {
+  font-size: 36px;
+  max-width: 700px;
+}
+.info h2 {
+  font-size: 18px;
+  max-width: 300px;
+}
+.info h3 {
+  max-width: 100px;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: right;
+}
+.blank {
+  background-color: #c4c4c4;
+  width: 64px;
+  height: 64px;
+  border-radius: 40px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 1240px;
+}
+.tags li {
+  display: inline;
+  font-size: 14px;
+  color: white;
+  background-color: #ff6060;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  gap: 10px;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+.Equipments{
+  width: 100%;
+  flex-basis: 47%;
+}
+.description {
+  width: 100%;
+  flex-basis: 47%;
+}
+
+@media screen and (min-width: 600px){
+  .info{
+    flex-direction: row;
+  }
+
+  .desc{
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .hostrate{
+    flex-direction: column;
+  }
+}

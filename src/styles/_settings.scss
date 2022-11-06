@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "font-1";
+    src: url(../styles/assets/fonts/Montserrat-Regular.ttf);
+  }
+  
+  * {
+    font-family: "font-1";
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+/*  #root{
+    width: 92%;
+    margin: auto;
+  }
+  
+@media screen and (min-width: 600px){
+  #root{
+    width: 86%;
+  }
+} */
