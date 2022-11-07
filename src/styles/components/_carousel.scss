@@ -1,5 +1,6 @@
 .carousel {
-  max-width: 1240px;
+  max-width: 335px;
+  height: 225px;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -7,22 +8,27 @@
 
 .imgcarou {
   width: 100%;
-  height: 415px;
+  height: 100%;
   margin: 0px;
   background-position: center;
   background-size: cover;
   object-fit: cover;
   border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  display: flex;
+  align-items: center;
 }
 
 .arrowcontainer {
   display: flex;
-  max-width: 1240px;
+  width: 100%;
   flex-direction: row;
   justify-content: space-between;
   margin-left: 10px;
   margin-right: 10px;
-  padding-top: 170px;
 }
 
 .arrowleft img {
@@ -34,4 +40,11 @@
   cursor: pointer;
   transform: rotate(180deg);
   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+@media screen and (min-width: 600px){
+  .carousel {
+    max-width: 1240px;
+    max-height: auto;
+  }
 }

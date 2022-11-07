@@ -3,6 +3,7 @@ import { useState } from "react";
 import arrow from "../styles/assets/arrowleft.svg"
 
 const Carousel = ({ imgurl })=>{
+    const showArrows = imgurl.length >= 2 ? true : false;
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const goToPrevious = () => {
@@ -23,6 +24,7 @@ const Carousel = ({ imgurl })=>{
           className="imgcarou"
           style={{ backgroundImage: `url(${imgurl[currentIndex]})` }}
         >
+          {showArrows && ( 
           <div className="arrowcontainer">
             <div className="arrowleft" onClick={goToPrevious}>
               <img src={arrow} alt="fléche gauche" />
@@ -31,6 +33,7 @@ const Carousel = ({ imgurl })=>{
               <img src={arrow} alt="fléche droite" />
             </div>
           </div>
+            )}
         </div>
     </div>
     )

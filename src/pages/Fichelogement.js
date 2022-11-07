@@ -12,6 +12,7 @@ const Fichelogement = ({imgurl, text, content}) => {
   const starcounter = [1, 2, 3, 4, 5];
   const params = useParams();
   const logementdata = data.find((logement) => logement.id === params.id);
+  if(logementdata !== undefined) { 
     return (
       <div>
         <Header />
@@ -53,6 +54,9 @@ const Fichelogement = ({imgurl, text, content}) => {
         <Footer />
       </div>
     );
+  } else {
+    window.location.href ="/errorpage";
+  }
 };
 
 export default Fichelogement;
