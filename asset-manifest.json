@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Ksa-bnb-React/static/css/main.71725d96.css",
+    "main.js": "/Ksa-bnb-React/static/js/main.3d867329.js",
+    "static/media/bannerabout.png": "/Ksa-bnb-React/static/media/bannerabout.fce6fc3e9ed27433e9b0.png",
+    "static/media/banner.png": "/Ksa-bnb-React/static/media/banner.efc1935eb81fc5e585f9.png",
+    "static/media/Montserrat-Regular.ttf": "/Ksa-bnb-React/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "index.html": "/Ksa-bnb-React/index.html",
+    "static/media/dropdownarrow.svg": "/Ksa-bnb-React/static/media/dropdownarrow.557045ea3cccdf4a6a60a53481c321e2.svg",
+    "static/media/arrowleft.svg": "/Ksa-bnb-React/static/media/arrowleft.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "static/media/emptystar.svg": "/Ksa-bnb-React/static/media/emptystar.7e4ba6032d7d80ecc30aa389973cef95.svg",
+    "static/media/star.svg": "/Ksa-bnb-React/static/media/star.6430150c126a3adf92c132c52c9c7428.svg",
+    "main.71725d96.css.map": "/Ksa-bnb-React/static/css/main.71725d96.css.map",
+    "main.3d867329.js.map": "/Ksa-bnb-React/static/js/main.3d867329.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71725d96.css",
+    "static/js/main.3d867329.js"
+  ]
+}
